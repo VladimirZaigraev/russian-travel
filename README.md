@@ -12,4 +12,5 @@
   - flex-box
   - grid
 
-### Cсылкf на GitHub Pages
+### Cсылка на GitHub Pages
+https://vladimirzaigraev.github.io/russian-travel/
