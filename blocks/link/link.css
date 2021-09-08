@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  color: #FFFFFF;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .link:hover {
+    opacity: 1;
+  }
+}
