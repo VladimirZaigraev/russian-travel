@@ -9,8 +9,16 @@
 @font-face {
   font-family: "Inter";
   font-display: swap;
+  src: url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-display: swap;
   src: url("../fonts/Inter-Black.woff") format("woff");
   font-weight: 900;
-  font-style: blod;
+  font-style: black;
 }
 
