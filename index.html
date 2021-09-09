@@ -9,32 +9,25 @@
 </head>
 <body class="page">
     <header class="header">
-        <div class="header__wrapper">
-          <img src="./images/header/header-logo.svg" alt="логотип:Россия" class="header__logo">
-          <div class="header__lang-links">
-              <a href="#" class="link header__lang-link header__lang-link_active">Ru</a>
-              <a href="#" class="link header__lang-link">En</a>
-          </div>
-        </div>
+        <img src="./images/header/header-logo.svg" alt="логотип:Россия" class="header__logo">
+        <ul class="header__lang-links list">
+          <li class="header__item item"><a href="#" class="link header__lang-link header__lang-link_active">Ru</a></li>
+          <li class="header__item item"><a href="#" class="link header__lang-link">En</a></li>
+        </ul>
     </header>
     <!-- /.header -->
     <main class="content">
       <section class="lead">
-        <div class="container">
-          <div class="lead__wrapper">
-            <h1 class="lead__title">Путешествия по России</h1>
-            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <img src="./images/lead/lead-polka.jpg" alt="Фотография: Вид из окна плацкартного вагона" class="lead__image">
-          </div>
+          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+          <img src="./images/lead/lead-polka.jpg" alt="Фотография: Вид из окна плацкартного вагона" class="lead__image">
           <p class="lead__caption">
           ваша полка — верхняя
           </p>
-        </div>
       </section>
       <!-- /.lead -->
       <section class="intro">
-        <div class="container">
-          <h3 class="intro__title">Чего мы там не видели?</h3>
+          <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="list intro__list">
             <li class="item intro__item"><span class="intro__span">Часовых поясов</span> 11</li>
@@ -43,11 +36,9 @@
             <li class="item intro__item"><span class="intro__span">Природных заповедников</span> 105</li>
             <li class="item intro__item"><span class="intro__span">Аэропортов</span> 241</li>
           </ul>
-        </div>
       </section>
       <!-- /.intro -->
-      <section class="photo-grid">
-        <h2 class="photo-grid__title">для обхода ошибки</h2>
+      <section class="photo-grid" aria-label="label">
         <ul class="list photo-grid__list">
           <li class="item photo-grid__item"><img src="./images/photo-grid/photo-grid-train.jpg" alt="Фотография: Вид из окна поезда" class="photo-grid__image"></li>
           <li class="item photo-grid__item"><img src="./images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="Фотография: Снежные горы в облаках" class="photo-grid__image"></li>
@@ -65,29 +56,28 @@
       </section>
       <!-- /.photo-grid -->
       <section class="places">
-        <div class="container">
-          <ul class="list places__list">
-            <li class="item place">
+        <ul class="list places__list">
+          <li class="place">
               <div class="place__header">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">url</p>
                   <a href="http://park-kosa.ru" class="link place__link"  target="_blank">park-kosa.ru</a>
                 </div>
               </div>
             <div class="place__content">
               <img src="./images/place/place-kosa.jpg" alt="Фотография: Побережье Куршской косы" class="place__image">
               <div class="place__text">
-                <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
-                <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+                <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на&nbsp;краю российского анклава.</p>
+                <p class="place__paragraph">На этом Калининградская область не заканчивается. Для&nbsp;путешественника и исследователя там же по&nbsp;соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
               </div>
             </div>
-            </li>
-            <li class="item place">
+          </li>
+          <li class="place">
               <div class="place__header">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">url</p>
                   <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="link place__link"  target="_blank">National Geographic</a>
                 </div>
             </div>
@@ -100,12 +90,12 @@
                   в Мурманск.</p>
               </div>
             </div>
-            </li>
-            <li class="item place">
+          </li>
+          <li class="place">
               <div class="place__header">
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">url</p>
                   <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="link place__link"  target="_blank">Facebook</a>
                 </div>
               </div>
@@ -117,12 +107,12 @@
                   <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                 </div>
               </div>
-            </li>
-            <li class="item place">
+          </li>
+          <li class="place">
               <div class="place__header">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">url</p>
                   <a href="https://vk.com/baikalmile" class="link place__link" target="_blank">https://vk.com/baikalmile</a>
                 </div>
             </div>
@@ -131,16 +121,17 @@
               <div class="place__text">
                 <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
                   в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
-                <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя
-                  к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+                <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место&nbsp;для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает&nbsp;себя&nbsp;
+                  к&nbsp;мотоциклу, и&nbsp;тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
               </div>
             </div>
-            </li>
-            <li class="item place">
+          </li>
+          <!--На разрешении в 320 данный блок сдеалать по PP не возможно из за того что текст в блоке выше переносится и сдвигает.-->
+          <li class="place">
               <div class="place__header">
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
-                  <p class="place__url-heading">URL</p>
+                  <p class="place__url-heading">url</p>
                   <a href="http://vodlozero.ru" class="link place__link" target="_blank">http://vodlozero.ru/</a>
                 </div>
             </div>
@@ -152,13 +143,12 @@
                     в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                 </div>
               </div>
-            </li>
-          </ul>
-        </div>
+          </li>
+        </ul>
       </section>
       <!-- /.places -->
       <section class="cover">
-        <a  href="#" class="cover__overlay">
+        <a  href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
@@ -167,16 +157,16 @@
     </main>
     <!-- /.content -->
     <footer class="footer">
-        <div class="footer__wrapper">
           <nav class="footer__navigation">
-            <a href="#" class="link footer__link">Карты</a>
-            <a href="#" class="link footer__link">Погода</a>
-            <a href="#" class="link footer__link">Расписание</a>
-            <a href="#" class="link footer__link">Календарь</a>
-            <a href="#" class="link footer__link">Путешествия</a>
+            <ul class="footer__list list">
+              <li class="footer__item item"><a href="https://yandex.ru/maps" class="link footer__link">Карты</a></li>
+              <li class="footer__item item"><a href="https://yandex.ru/pogoda" class="link footer__link">Погода</a></li>
+              <li class="footer__item item"><a href="https://rasp.yandex.ru" class="link footer__link">Расписание</a></li>
+              <li class="footer__item item"><a href="https://calendar.yandex.ru" class="link footer__link">Календарь</a></li>
+              <li class="footer__item item"><a href="https://travel.yandex.ru" class="link footer__link">Путешествия</a></li>
+            </ul>
           </nav>
           <p class="footer__copyright">&#169; 2021. Заиграев Владимир</p>
-        </div>
     </footer>
     <!-- /.footer -->
 </body>

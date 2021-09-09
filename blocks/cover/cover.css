@@ -5,6 +5,8 @@
   background-image: url("../../images/cover/cover-trains.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {

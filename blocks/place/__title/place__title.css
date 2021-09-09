@@ -12,6 +12,7 @@
 @media (max-width: 1024px) {
 
   .place__title {
+    font-size: calc(42px + (72 - 42) * ( (100vw - 768px) / (1024 - 768)));
     max-width: 440px;
     margin-right: 4%;
   }

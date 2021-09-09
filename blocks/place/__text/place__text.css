@@ -12,9 +12,9 @@
 @media (max-width: 768px) {
 
   .place__text {
-    max-width: 340px;
     min-width: 200px;
     padding-left: 4.2%;
+    width: 51%
   }
 }
 @media (max-width: 680px) {
