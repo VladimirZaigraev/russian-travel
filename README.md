@@ -1,5 +1,8 @@
 # Проект: Путешествие по России
 
+### Cсылка на GitHub Pages
+https://vladimirzaigraev.github.io/russian-travel/
+
 ### Описание проекта
 Завершаяющая работа по верстке курса Яндекс Практикум "Веб-разработчик"
 
@@ -12,5 +15,4 @@
   - flex-box
   - grid
 
-### Cсылка на GitHub Pages
-https://vladimirzaigraev.github.io/russian-travel/
+
